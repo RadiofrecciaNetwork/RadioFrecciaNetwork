@@ -1,0 +1,27 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.mexiserver.com/html5players/15/15.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Yantramanav:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<body>
+<div class="repro15" id="radio">
+  <div class="tocando">
+    <marquee>
+    <span class="ttl">RadioFrecciaNetwork</span> - <span class="arst"></span>
+    </marquee>
+  </div>
+</div>
+<script src="https://radiofreccianetwork.github.io/radiofreccianetwork/15.min.js"></script>
+<script>
+        $("#radio").repro15({
+			type: "shoutcast",
+            URL: "https://s10.myradiostream.com/:35464",
+            logo: "https://i.postimg.cc/mDXkw7h2/image.png",
+            autoplay: true
+        });
+    </script>
+</body>
+</html>
